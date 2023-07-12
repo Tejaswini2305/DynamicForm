@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		329DB18BFBC109454FB21119 /* Pods_DynamicFormTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B01652AE1AC8AB0D99C32D26 /* Pods_DynamicFormTests.framework */; };
+		6DDB225B556005622F36E534 /* Pods_DynamicForm_DynamicFormUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E8D6BFC18430F68BB6E537 /* Pods_DynamicForm_DynamicFormUITests.framework */; };
 		9D480AC1293F509A0087B938 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D480AC0293F509A0087B938 /* AppDelegate.swift */; };
 		9D480AC3293F509A0087B938 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D480AC2293F509A0087B938 /* SceneDelegate.swift */; };
 		9D480AC5293F509A0087B938 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D480AC4293F509A0087B938 /* ViewController.swift */; };
@@ -17,6 +19,26 @@
 		9D480ADB293F509D0087B938 /* DynamicFormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D480ADA293F509D0087B938 /* DynamicFormTests.swift */; };
 		9D480AE5293F509D0087B938 /* DynamicFormUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D480AE4293F509D0087B938 /* DynamicFormUITests.swift */; };
 		9D480AE7293F509D0087B938 /* DynamicFormUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D480AE6293F509D0087B938 /* DynamicFormUITestsLaunchTests.swift */; };
+		9D480AF4293F51500087B938 /* FormFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D480AF3293F51500087B938 /* FormFields.swift */; };
+		9D480AF6293F561C0087B938 /* HeaderFieldsInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D480AF5293F561C0087B938 /* HeaderFieldsInfo.json */; };
+		9D9AB4FC29543783000E0132 /* RadioBtnTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9AB4FA29543783000E0132 /* RadioBtnTableViewCell.swift */; };
+		9D9AB4FD29543783000E0132 /* RadioBtnTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D9AB4FB29543783000E0132 /* RadioBtnTableViewCell.xib */; };
+		9D9AB500295465D6000E0132 /* RadioCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9AB4FE295465D6000E0132 /* RadioCollectionViewCell.swift */; };
+		9D9AB501295465D6000E0132 /* RadioCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D9AB4FF295465D6000E0132 /* RadioCollectionViewCell.xib */; };
+		9DADA74B294AF394008DACAE /* FormTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DADA749294AF394008DACAE /* FormTableViewCell.swift */; };
+		9DADA74C294AF394008DACAE /* FormTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DADA74A294AF394008DACAE /* FormTableViewCell.xib */; };
+		9DBAF99A2966967900A27CB6 /* CheckBoxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBAF9982966967900A27CB6 /* CheckBoxTableViewCell.swift */; };
+		9DBAF99B2966967900A27CB6 /* CheckBoxTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DBAF9992966967900A27CB6 /* CheckBoxTableViewCell.xib */; };
+		9DBAF99E29669FA200A27CB6 /* CheckBoxCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBAF99C29669FA200A27CB6 /* CheckBoxCollectionViewCell.swift */; };
+		9DBAF99F29669FA200A27CB6 /* CheckBoxCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DBAF99D29669FA200A27CB6 /* CheckBoxCollectionViewCell.xib */; };
+		9DE4670F2949E6F300E5FD11 /* CustomCellFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE4670E2949E6F300E5FD11 /* CustomCellFormVC.swift */; };
+		9DE6E062294B3520007198C7 /* TextViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE6E060294B3520007198C7 /* TextViewTableViewCell.swift */; };
+		9DE6E063294B3520007198C7 /* TextViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DE6E061294B3520007198C7 /* TextViewTableViewCell.xib */; };
+		9DE6E066294B37F8007198C7 /* DropDownTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE6E064294B37F8007198C7 /* DropDownTableViewCell.swift */; };
+		9DE6E067294B37F8007198C7 /* DropDownTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DE6E065294B37F8007198C7 /* DropDownTableViewCell.xib */; };
+		9DE6E06A294C52B5007198C7 /* ButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE6E068294C52B4007198C7 /* ButtonTableViewCell.swift */; };
+		9DE6E06B294C52B5007198C7 /* ButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DE6E069294C52B4007198C7 /* ButtonTableViewCell.xib */; };
+		DB0FD70F463560652F31797D /* Pods_DynamicForm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDC65C99FDA5F4C79C5D9AC /* Pods_DynamicForm.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +59,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22B006128CF4B5A195FF0AA4 /* Pods-DynamicFormTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicFormTests.debug.xcconfig"; path = "Target Support Files/Pods-DynamicFormTests/Pods-DynamicFormTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E436289F028A8731C465D50 /* Pods-DynamicForm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicForm.release.xcconfig"; path = "Target Support Files/Pods-DynamicForm/Pods-DynamicForm.release.xcconfig"; sourceTree = "<group>"; };
+		5369DF9E0097CA2EF4039353 /* Pods-DynamicFormTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicFormTests.release.xcconfig"; path = "Target Support Files/Pods-DynamicFormTests/Pods-DynamicFormTests.release.xcconfig"; sourceTree = "<group>"; };
+		8802ED28D4D91B52719BBFAE /* Pods-DynamicForm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicForm.debug.xcconfig"; path = "Target Support Files/Pods-DynamicForm/Pods-DynamicForm.debug.xcconfig"; sourceTree = "<group>"; };
+		88E8D6BFC18430F68BB6E537 /* Pods_DynamicForm_DynamicFormUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamicForm_DynamicFormUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98AD4E5EF25561F32D2A4688 /* Pods-DynamicForm-DynamicFormUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicForm-DynamicFormUITests.release.xcconfig"; path = "Target Support Files/Pods-DynamicForm-DynamicFormUITests/Pods-DynamicForm-DynamicFormUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9D480ABD293F509A0087B938 /* DynamicForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D480AC0293F509A0087B938 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D480AC2293F509A0087B938 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +79,28 @@
 		9D480AE0293F509D0087B938 /* DynamicFormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicFormUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D480AE4293F509D0087B938 /* DynamicFormUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFormUITests.swift; sourceTree = "<group>"; };
 		9D480AE6293F509D0087B938 /* DynamicFormUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFormUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9D480AF3293F51500087B938 /* FormFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormFields.swift; sourceTree = "<group>"; };
+		9D480AF5293F561C0087B938 /* HeaderFieldsInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = HeaderFieldsInfo.json; path = ../../../HeaderFieldsInfo.json; sourceTree = "<group>"; };
+		9D9AB4FA29543783000E0132 /* RadioBtnTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioBtnTableViewCell.swift; sourceTree = "<group>"; };
+		9D9AB4FB29543783000E0132 /* RadioBtnTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RadioBtnTableViewCell.xib; sourceTree = "<group>"; };
+		9D9AB4FE295465D6000E0132 /* RadioCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioCollectionViewCell.swift; sourceTree = "<group>"; };
+		9D9AB4FF295465D6000E0132 /* RadioCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RadioCollectionViewCell.xib; sourceTree = "<group>"; };
+		9DADA749294AF394008DACAE /* FormTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTableViewCell.swift; sourceTree = "<group>"; };
+		9DADA74A294AF394008DACAE /* FormTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FormTableViewCell.xib; sourceTree = "<group>"; };
+		9DBAF9982966967900A27CB6 /* CheckBoxTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxTableViewCell.swift; sourceTree = "<group>"; };
+		9DBAF9992966967900A27CB6 /* CheckBoxTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckBoxTableViewCell.xib; sourceTree = "<group>"; };
+		9DBAF99C29669FA200A27CB6 /* CheckBoxCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxCollectionViewCell.swift; sourceTree = "<group>"; };
+		9DBAF99D29669FA200A27CB6 /* CheckBoxCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckBoxCollectionViewCell.xib; sourceTree = "<group>"; };
+		9DE4670E2949E6F300E5FD11 /* CustomCellFormVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellFormVC.swift; sourceTree = "<group>"; };
+		9DE6E060294B3520007198C7 /* TextViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewTableViewCell.swift; sourceTree = "<group>"; };
+		9DE6E061294B3520007198C7 /* TextViewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextViewTableViewCell.xib; sourceTree = "<group>"; };
+		9DE6E064294B37F8007198C7 /* DropDownTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownTableViewCell.swift; sourceTree = "<group>"; };
+		9DE6E065294B37F8007198C7 /* DropDownTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DropDownTableViewCell.xib; sourceTree = "<group>"; };
+		9DE6E068294C52B4007198C7 /* ButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTableViewCell.swift; sourceTree = "<group>"; };
+		9DE6E069294C52B4007198C7 /* ButtonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonTableViewCell.xib; sourceTree = "<group>"; };
+		9FDC65C99FDA5F4C79C5D9AC /* Pods_DynamicForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamicForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD020E1E96314CF098B8475A /* Pods-DynamicForm-DynamicFormUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicForm-DynamicFormUITests.debug.xcconfig"; path = "Target Support Files/Pods-DynamicForm-DynamicFormUITests/Pods-DynamicForm-DynamicFormUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B01652AE1AC8AB0D99C32D26 /* Pods_DynamicFormTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamicFormTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB0FD70F463560652F31797D /* Pods_DynamicForm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				329DB18BFBC109454FB21119 /* Pods_DynamicFormTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +124,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DDB225B556005622F36E534 /* Pods_DynamicForm_DynamicFormUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F200478B4069AD4F9FB921D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8802ED28D4D91B52719BBFAE /* Pods-DynamicForm.debug.xcconfig */,
+				4E436289F028A8731C465D50 /* Pods-DynamicForm.release.xcconfig */,
+				AD020E1E96314CF098B8475A /* Pods-DynamicForm-DynamicFormUITests.debug.xcconfig */,
+				98AD4E5EF25561F32D2A4688 /* Pods-DynamicForm-DynamicFormUITests.release.xcconfig */,
+				22B006128CF4B5A195FF0AA4 /* Pods-DynamicFormTests.debug.xcconfig */,
+				5369DF9E0097CA2EF4039353 /* Pods-DynamicFormTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9D480AB4293F509A0087B938 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +151,8 @@
 				9D480AD9293F509D0087B938 /* DynamicFormTests */,
 				9D480AE3293F509D0087B938 /* DynamicFormUITests */,
 				9D480ABE293F509A0087B938 /* Products */,
+				4F200478B4069AD4F9FB921D /* Pods */,
+				B50EC74F921CAB0ADDFC1E5B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +169,8 @@
 		9D480ABF293F509A0087B938 /* DynamicForm */ = {
 			isa = PBXGroup;
 			children = (
+				9DADA748294AF374008DACAE /* Cells */,
+				9D480AF5293F561C0087B938 /* HeaderFieldsInfo.json */,
 				9D480AC0293F509A0087B938 /* AppDelegate.swift */,
 				9D480AC2293F509A0087B938 /* SceneDelegate.swift */,
 				9D480AC4293F509A0087B938 /* ViewController.swift */,
@@ -109,6 +179,8 @@
 				9D480ACE293F509D0087B938 /* LaunchScreen.storyboard */,
 				9D480AD1293F509D0087B938 /* Info.plist */,
 				9D480AC9293F509A0087B938 /* DynamicForm.xcdatamodeld */,
+				9D480AF3293F51500087B938 /* FormFields.swift */,
+				9DE4670E2949E6F300E5FD11 /* CustomCellFormVC.swift */,
 			);
 			path = DynamicForm;
 			sourceTree = "<group>";
@@ -130,6 +202,39 @@
 			path = DynamicFormUITests;
 			sourceTree = "<group>";
 		};
+		9DADA748294AF374008DACAE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9DADA749294AF394008DACAE /* FormTableViewCell.swift */,
+				9DADA74A294AF394008DACAE /* FormTableViewCell.xib */,
+				9DE6E060294B3520007198C7 /* TextViewTableViewCell.swift */,
+				9DE6E061294B3520007198C7 /* TextViewTableViewCell.xib */,
+				9DE6E064294B37F8007198C7 /* DropDownTableViewCell.swift */,
+				9DE6E065294B37F8007198C7 /* DropDownTableViewCell.xib */,
+				9DE6E068294C52B4007198C7 /* ButtonTableViewCell.swift */,
+				9DE6E069294C52B4007198C7 /* ButtonTableViewCell.xib */,
+				9D9AB4FA29543783000E0132 /* RadioBtnTableViewCell.swift */,
+				9D9AB4FB29543783000E0132 /* RadioBtnTableViewCell.xib */,
+				9D9AB4FE295465D6000E0132 /* RadioCollectionViewCell.swift */,
+				9D9AB4FF295465D6000E0132 /* RadioCollectionViewCell.xib */,
+				9DBAF9982966967900A27CB6 /* CheckBoxTableViewCell.swift */,
+				9DBAF9992966967900A27CB6 /* CheckBoxTableViewCell.xib */,
+				9DBAF99C29669FA200A27CB6 /* CheckBoxCollectionViewCell.swift */,
+				9DBAF99D29669FA200A27CB6 /* CheckBoxCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B50EC74F921CAB0ADDFC1E5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FDC65C99FDA5F4C79C5D9AC /* Pods_DynamicForm.framework */,
+				88E8D6BFC18430F68BB6E537 /* Pods_DynamicForm_DynamicFormUITests.framework */,
+				B01652AE1AC8AB0D99C32D26 /* Pods_DynamicFormTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +242,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D480AEA293F509D0087B938 /* Build configuration list for PBXNativeTarget "DynamicForm" */;
 			buildPhases = (
+				9BF57D269DC06B6C2F64BA83 /* [CP] Check Pods Manifest.lock */,
 				9D480AB9293F509A0087B938 /* Sources */,
 				9D480ABA293F509A0087B938 /* Frameworks */,
 				9D480ABB293F509A0087B938 /* Resources */,
+				80A5ED5E6FD13E43F8548748 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +261,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D480AED293F509D0087B938 /* Build configuration list for PBXNativeTarget "DynamicFormTests" */;
 			buildPhases = (
+				F0777EAD450987E04B823E36 /* [CP] Check Pods Manifest.lock */,
 				9D480AD2293F509D0087B938 /* Sources */,
 				9D480AD3293F509D0087B938 /* Frameworks */,
 				9D480AD4293F509D0087B938 /* Resources */,
@@ -172,9 +280,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D480AF0293F509D0087B938 /* Build configuration list for PBXNativeTarget "DynamicFormUITests" */;
 			buildPhases = (
+				C1314672E95A6109A57A4B0F /* [CP] Check Pods Manifest.lock */,
 				9D480ADC293F509D0087B938 /* Sources */,
 				9D480ADD293F509D0087B938 /* Frameworks */,
 				9D480ADE293F509D0087B938 /* Resources */,
+				903BD0A53B9E5F444C75781B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,9 +344,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D9AB501295465D6000E0132 /* RadioCollectionViewCell.xib in Resources */,
+				9DBAF99F29669FA200A27CB6 /* CheckBoxCollectionViewCell.xib in Resources */,
 				9D480AD0293F509D0087B938 /* LaunchScreen.storyboard in Resources */,
+				9DE6E063294B3520007198C7 /* TextViewTableViewCell.xib in Resources */,
+				9D9AB4FD29543783000E0132 /* RadioBtnTableViewCell.xib in Resources */,
+				9D480AF6293F561C0087B938 /* HeaderFieldsInfo.json in Resources */,
+				9DBAF99B2966967900A27CB6 /* CheckBoxTableViewCell.xib in Resources */,
+				9DE6E067294B37F8007198C7 /* DropDownTableViewCell.xib in Resources */,
+				9DADA74C294AF394008DACAE /* FormTableViewCell.xib in Resources */,
 				9D480ACD293F509D0087B938 /* Assets.xcassets in Resources */,
 				9D480AC8293F509A0087B938 /* Main.storyboard in Resources */,
+				9DE6E06B294C52B5007198C7 /* ButtonTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +375,128 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		80A5ED5E6FD13E43F8548748 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DynamicForm/Pods-DynamicForm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DynamicForm/Pods-DynamicForm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DynamicForm/Pods-DynamicForm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		903BD0A53B9E5F444C75781B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DynamicForm-DynamicFormUITests/Pods-DynamicForm-DynamicFormUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DynamicForm-DynamicFormUITests/Pods-DynamicForm-DynamicFormUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DynamicForm-DynamicFormUITests/Pods-DynamicForm-DynamicFormUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BF57D269DC06B6C2F64BA83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DynamicForm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1314672E95A6109A57A4B0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DynamicForm-DynamicFormUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0777EAD450987E04B823E36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DynamicFormTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9D480AB9293F509A0087B938 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9D480AC5293F509A0087B938 /* ViewController.swift in Sources */,
+				9DE6E062294B3520007198C7 /* TextViewTableViewCell.swift in Sources */,
+				9D9AB4FC29543783000E0132 /* RadioBtnTableViewCell.swift in Sources */,
+				9DE4670F2949E6F300E5FD11 /* CustomCellFormVC.swift in Sources */,
 				9D480ACB293F509A0087B938 /* DynamicForm.xcdatamodeld in Sources */,
+				9DE6E066294B37F8007198C7 /* DropDownTableViewCell.swift in Sources */,
 				9D480AC1293F509A0087B938 /* AppDelegate.swift in Sources */,
 				9D480AC3293F509A0087B938 /* SceneDelegate.swift in Sources */,
+				9DE6E06A294C52B5007198C7 /* ButtonTableViewCell.swift in Sources */,
+				9D480AF4293F51500087B938 /* FormFields.swift in Sources */,
+				9DBAF99A2966967900A27CB6 /* CheckBoxTableViewCell.swift in Sources */,
+				9D9AB500295465D6000E0132 /* RadioCollectionViewCell.swift in Sources */,
+				9DBAF99E29669FA200A27CB6 /* CheckBoxCollectionViewCell.swift in Sources */,
+				9DADA74B294AF394008DACAE /* FormTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,11 +668,13 @@
 		};
 		9D480AEB293F509D0087B938 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8802ED28D4D91B52719BBFAE /* Pods-DynamicForm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 99U48MLR86;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DynamicForm/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -452,7 +686,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.osidigital.DynamicForm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -463,11 +697,13 @@
 		};
 		9D480AEC293F509D0087B938 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E436289F028A8731C465D50 /* Pods-DynamicForm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 99U48MLR86;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DynamicForm/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -479,7 +715,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.osidigital.DynamicForm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -490,6 +727,7 @@
 		};
 		9D480AEE293F509D0087B938 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22B006128CF4B5A195FF0AA4 /* Pods-DynamicFormTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +747,7 @@
 		};
 		9D480AEF293F509D0087B938 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5369DF9E0097CA2EF4039353 /* Pods-DynamicFormTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +767,7 @@
 		};
 		9D480AF1293F509D0087B938 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD020E1E96314CF098B8475A /* Pods-DynamicForm-DynamicFormUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -545,6 +785,7 @@
 		};
 		9D480AF2293F509D0087B938 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98AD4E5EF25561F32D2A4688 /* Pods-DynamicForm-DynamicFormUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

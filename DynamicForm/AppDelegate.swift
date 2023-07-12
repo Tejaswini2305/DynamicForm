@@ -7,6 +7,7 @@
 
 import UIKit
 import CoreData
+import IQKeyboardManagerSwift
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,9 +15,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        IQKeyboardManager.shared.enable = true
+        print("application launched")
         // Override point for customization after application launch.
         return true
     }
+    func applicationDidBecomeActive(_ application: UIApplication) {
+        print("Application enters foreground and is active")
+    }
+    func applicationWillResignActive(_ application: UIApplication) {
+        print("Application will resign active-app changes from active to inactive")
+    }
+    func applicationDidEnterBackground(_ application: UIApplication) {
+        print("Applications entered into background")
+    }
+    
 
     // MARK: UISceneSession Lifecycle
 
