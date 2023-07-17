@@ -115,7 +115,6 @@ extension CustomCellFormVC: UITableViewDelegate,UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return cellResult?.formFields?.count ?? 0
-        print(section)
     }
     
     
