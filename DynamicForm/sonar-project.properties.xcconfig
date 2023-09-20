@@ -1,0 +1,22 @@
+//
+//  sonar-project.properties.xcconfig
+//  DynamicForm
+//
+//  Created by tkandimalla on 20/09/23.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+sonar.projectKey=Tejaswini2305_DynamicForm
+sonar.organization=tejaswini2305
+
+# This is the name and version displayed in the SonarCloud UI.
+#sonar.projectName=DynamicForm
+#sonar.projectVersion=1.0
+
+
+# Path is relative to the sonar-project.properties file. Replace "\" by "/" on Windows.
+#sonar.sources=.
+
+# Encoding of the source code. Default is default system encoding
+#sonar.sourceEncoding=UTF-8

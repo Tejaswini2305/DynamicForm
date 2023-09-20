@@ -93,6 +93,7 @@
 		9DBAF9992966967900A27CB6 /* CheckBoxTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckBoxTableViewCell.xib; sourceTree = "<group>"; };
 		9DBAF99C29669FA200A27CB6 /* CheckBoxCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxCollectionViewCell.swift; sourceTree = "<group>"; };
 		9DBAF99D29669FA200A27CB6 /* CheckBoxCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckBoxCollectionViewCell.xib; sourceTree = "<group>"; };
+		9DBC3C592ABAC60C00C6E623 /* sonar-project.properties.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "sonar-project.properties.xcconfig"; sourceTree = "<group>"; };
 		9DE4670E2949E6F300E5FD11 /* CustomCellFormVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellFormVC.swift; sourceTree = "<group>"; };
 		9DE6E060294B3520007198C7 /* TextViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewTableViewCell.swift; sourceTree = "<group>"; };
 		9DE6E061294B3520007198C7 /* TextViewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextViewTableViewCell.xib; sourceTree = "<group>"; };
@@ -184,6 +185,7 @@
 				9D480AF3293F51500087B938 /* FormFields.swift */,
 				9DE4670E2949E6F300E5FD11 /* CustomCellFormVC.swift */,
 				9D03D0DE2A5EAAF0004D1741 /* ViewController1.swift */,
+				9DBC3C592ABAC60C00C6E623 /* sonar-project.properties.xcconfig */,
 			);
 			path = DynamicForm;
 			sourceTree = "<group>";
