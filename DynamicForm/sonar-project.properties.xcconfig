@@ -9,6 +9,7 @@
 // https://help.apple.com/xcode/#/dev745c5c974
 sonar.projectKey=Tejaswini2305_DynamicForm
 sonar.organization=tejaswini2305
+sonar.java.binaries= **/*.java
 
 # This is the name and version displayed in the SonarCloud UI.
 #sonar.projectName=DynamicForm
