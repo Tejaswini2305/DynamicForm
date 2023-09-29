@@ -1,0 +1,10 @@
+workflows:
+    sample-workflow:
+        name: Codemagic EmpDetails Workflow
+        scripts:
+            - name: CICD started
+              script: echo "welcome to CICD set up"
+        publishing:
+        email:
+            recipients:
+                - tejaswini23.kandimalla@gmail.com
