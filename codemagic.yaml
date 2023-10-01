@@ -4,7 +4,9 @@ workflows:
         scripts:
             - name: CICD started
               script: echo "welcome to CICD set up"
+            - name: Build EmpDetails
+              script: xcodebuild build -workspace "DynamicForm.xcworkspace" -scheme "DynamicForm" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
         publishing:
           email:
             recipients:
-              - tejaswini23.kandimalla@gmail.com
+              - kandimalla23.tejaswini@gmail.com
